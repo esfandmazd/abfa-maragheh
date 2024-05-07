@@ -1,0 +1,121 @@
+/* @import "reset.css"; */
+/* ==============================================================a=l=a=v=i========
+   portal-css: fonts
+   ========================================================================== */
+
+/*................. persian - font ....................*/
+@font-face {
+        font-family: 'IranSansNum';
+        src: url('fonts/IRANSansWeb(FaNum).eot'); /* IE9 Compact Modes */
+        src: url('fonts/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/IRANSansWeb(FaNum).woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/IRANSansWeb(FaNum).woff') format('woff'), /* Pretty Modern Browsers */
+        url('fonts/IRANSansWeb(FaNum).ttf') format('truetype') /* Safari, Android, iOS */;
+        font-weight: normal;
+        font-style: normal;
+  }
+@font-face {
+    font-family: 'iranYekan';
+    src: url('fonts/IranYekan.eot'); /* IE9 Compact Modes */
+    src: url('fonts/IranYekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/IranYekan.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/IranYekan.woff') format('woff'), /* Pretty Modern Browsers */
+    url('fonts/IranYekan.ttf') format('truetype') /* Safari, Android, iOS */;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'BYekan';
+	src: url('fonts/WebYekan.eot'); /* IE9 Compact Modes */
+	src: url('fonts/WebYekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('fonts/WebYekan.woff2') format('woff2'), /* Super Modern Browsers */
+	url('fonts/WebYekan.woff') format('woff'), /* Pretty Modern Browsers */
+	url('fonts/WebYekan.ttf')  format('truetype'), /* Safari, Android, iOS */
+	url('fonts/WebYekan.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;}
+
+@font-face {
+	font-family: 'BZar';
+	src: url('fonts/BZar_bold.eot'); /* IE9 Compact Modes */
+	src: url('fonts/BZar_bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('fonts/BZar_bold.woff') format('woff'), /* Pretty Modern Browsers */
+	url('fonts/BZar_bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+	url('fonts/BZar_bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;}
+@font-face {
+	font-family: 'BNazanin';
+	src: url('fonts/B_nazanin.eot'); /* IE9 Compact Modes */
+	src: url('fonts/B_nazanin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('fonts/B_nazanin.woff') format('woff'), /* Pretty Modern Browsers */
+	url('fonts/B_nazanin.ttf')  format('truetype'), /* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;}
+	
+@font-face {
+	font-family: 'IRIN';
+	src: url('fonts/fontawesome-webfont.eot'); /* IE9 Compact Modes */
+	src: url('fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('fonts/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+	url('fonts/fontawesome-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	url('fonts/fontawesome-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;}
+
+@font-face {
+	font-family: 'rezvan';
+	src: url('fonts/rezvan.otf'); /* IE9 Compact Modes */
+	src: url('fonts/rezvan.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('fonts/rezvan.ttf')  format('truetype');/* Safari, Android, iOS */
+    font-weight: normal;
+	font-style: normal;}
+
+/*................. English - font....................*/
+@font-face {
+	font-family: 'semibold';
+	src: url('fonts/titillium-semibold-webfont.eot'); /* IE9 Compact Modes */
+	src: url('fonts/titillium-semibold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('fonts/titillium-semibold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+	url('fonts/titillium-semibold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	url('fonts/titillium-semibold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;}
+
+@font-face {
+	font-family: 'regular';
+	src: url('fonts/titillium-regular-webfont.eot'); /* IE9 Compact Modes */
+	src: url('fonts/titillium-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('fonts/titillium-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+	url('fonts/titillium-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	url('fonts/titillium-regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */ }
+
+@font-face {
+	font-family: 'regularitalic';
+	src: url('fonts/titillium-regularitalic-webfont.eot'); /* IE9 Compact Modes */
+	src: url('fonts/titillium-regularitalic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('fonts/titillium-regularitalic-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+	url('fonts/titillium-regularitalic-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	url('fonts/titillium-regularitalic-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;}
+
+@font-face {
+	font-family: 'light';
+	src: url('fonts/titillium-light-webfont.eot'); /* IE9 Compact Modes */
+	src: url('fonts/titillium-light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('fonts/titillium-light-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+	url('fonts/titillium-light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	url('fonts/titillium-light-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;}
+
+@font-face {
+	font-family: 'lightitalic';
+	src: url('fonts/titillium-lightitalic-webfont.eot'); /* IE9 Compact Modes */
+	src: url('fonts/titillium-lightitalic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('fonts/titillium-lightitalic-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+	url('fonts/titillium-lightitalic-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	url('fonts/titillium-lightitalic-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;}
