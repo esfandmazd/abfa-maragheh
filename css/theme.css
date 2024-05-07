@@ -629,8 +629,7 @@ body > form > main > div.table-class {
 }
 #contact-us-section:before {
   content: "";
-  background: url("file:///C:/Users/Mr.Naseri/Desktop/abfa-maragheh/src%20code/img/contact-us/banner.jpg")
-    no-repeat;
+  background: url("img/contact-us/banner.jpg") no-repeat;
   background-size: 100% 100%;
   width: 100%;
   height: 100%;
