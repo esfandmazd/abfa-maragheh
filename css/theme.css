@@ -995,7 +995,7 @@ body > form > main > div.table-class {
     right: var(--swiper-navigation-sides-offset, 0px) !important;
     top: 18%;
   }
-  .logoBrand {
+  .logoBrand img {
     width: 100%;
   }
 }
