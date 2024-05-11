@@ -995,6 +995,9 @@ body > form > main > div.table-class {
     right: var(--swiper-navigation-sides-offset, 0px) !important;
     top: 18%;
   }
+  .logoBrand {
+    width: 100%;
+  }
 }
 /*** end responsive design ***/
 /*** totop-btn ***/
