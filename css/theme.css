@@ -439,97 +439,6 @@ body > form > main > div.table-class {
 }
 /*** Topbar End ***/
 
-/*** Navbar Start ***/
-.navbar {
-  padding: 0;
-  background: var(--first-color);
-}
-
-.navbar .navbar-nav .nav-link {
-  padding: 10px 10px;
-  font-size: 19px;
-  transition: 0.5s;
-  color: white;
-}
-.navbar .navbar-nav .nav-link {
-  position: relative;
-  overflow: hidden;
-}
-.navbar .navbar-nav .nav-link:after {
-  margin: 10px 0px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 60%;
-  content: "";
-  background: white;
-  transform: translateX(99%);
-  transition: 0.3s ease;
-}
-.navbar .navbar-nav .nav-link:hover {
-  color: black !important;
-  z-index: 2;
-}
-.navbar .navbar-nav .nav-link:hover:after {
-  transform: translateX(0%);
-  border-radius: 2px;
-  width: 98%;
-  z-index: -1;
-}
-.navbar .navbar-nav .nav-link:hover,
-.sticky-top.bg-white .navbar .navbar-nav .nav-link:hover,
-.sticky-top.bg-white .navbar .navbar-nav .nav-link.active {
-  color: #ffffff;
-}
-
-.navbar .dropdown-toggle::after {
-  border: none;
-  content: "\f107";
-  font-family: "Font Awesome 5 Pro";
-  font-weight: 600;
-  vertical-align: middle;
-  margin-right: 8px;
-}
-
-@media (min-width: 1200px) {
-  .navbar .nav-item .dropdown-menu {
-    display: block;
-    visibility: hidden;
-    top: 100%;
-    transform: rotateX(-75deg);
-    transform-origin: 0% 0%;
-    border: 0;
-    transition: 0.5s;
-    opacity: 0;
-  }
-}
-
-@media (max-width: 1200px) {
-  .navbar .collapse.navbar-collapse .btn-hover-bg.btn {
-    margin-bottom: 20px;
-  }
-}
-.dropdown .dropdown-menu a {
-  transition: 0.2s ease-in-out;
-}
-.dropdown .dropdown-menu a:hover {
-  background: #5f81b3;
-  color: #ffffff;
-}
-
-.navbar .nav-item:hover .dropdown-menu {
-  transform: rotateX(0deg);
-  visibility: visible;
-  background: var(--bs-light) !important;
-  transition: 0.5s;
-  opacity: 1;
-}
-.dropdown-menu {
-  text-align: right;
-}
-/*** Navbar End ***/
-
 /*** slider carousel ***/
 .carousel-item img {
   height: 478px;
@@ -1037,3 +946,94 @@ body > form > main > div.table-class {
   -webkit-transform: perspective(200px) rotateX(0);
   transform: perspective(200px) rotateX(0);
 }
+/*** start navbar design ***/
+.navbar {
+  background: var(--first-color);
+  padding: 0;
+}
+nav .nav-link {
+  /* color: white; */
+}
+nav.navbar .navbar-nav .nav-link {
+  padding: 10px 10px;
+  font-size: 19px;
+  transition: 0.5s;
+  color: white;
+}
+.navbar .navbar-nav .nav-link {
+  position: relative;
+  overflow: hidden;
+}
+.navbar .navbar-nav .nav-link:after {
+  margin: 10px 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 60%;
+  content: "";
+  background: white;
+  transform: translateX(99%);
+  transition: 0.3s ease;
+}
+.navbar .navbar-nav > .nav-item:hover .nav-link {
+  color: black !important;
+  z-index: 2;
+}
+.navbar .navbar-nav > .nav-item:hover .nav-link:after {
+  transform: translateX(0%);
+  border-radius: 2px;
+  width: 98%;
+  z-index: -1;
+  border: none;
+}
+.dropdown .dropdown-menu a {
+  transition: 0.2s ease-in-out;
+}
+.dropdown .dropdown-menu a:hover {
+  background: #5f81b3;
+  color: #ffffff;
+}
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+  .dropdown-menu li {
+    position: relative;
+  }
+  .dropdown-menu .submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+  }
+  .dropdown-menu .submenu-left {
+    right: 100%;
+    left: auto;
+  }
+
+  .dropdown-menu > li:hover {
+    background-color: #f1f1f1;
+  }
+  .dropdown-menu > li:hover > .submenu {
+    display: block;
+  }
+}
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+  .dropdown-menu .dropdown-menu {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .nav-item.dropdown:hover > ul {
+    display: block !important;
+  }
+}
+.dropdown-menu {
+  text-align: right;
+}
+/* ============ small devices .end// ============ */
+/*** end navbar design ***/
