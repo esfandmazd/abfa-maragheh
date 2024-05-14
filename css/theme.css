@@ -1094,3 +1094,216 @@ a.dropdown-item {
 }
 /* ============ small devices .end// ============ */
 /*** end navbar design ***/
+/* *** start kamtavan*** */
+.di-wheelchair:before {
+  content: "\f193";
+  font-family: "Font Awesome 5 Pro";
+}
+.shrotcut-menu-two {
+  position: fixed;
+  bottom: 30px;
+  left: 10px;
+  /* transform: translateY(-50%); */
+  z-index: 201;
+  overflow: hidden;
+}
+.shrotcut-menu-two li span i,
+.shrotcut-menu-two li span i:after {
+  color: white;
+}
+.shrotcut-menu-two .btn-weak {
+  display: inline-block;
+  height: 35px;
+  width: 40px;
+  text-align: center;
+  background-color: #2e3192;
+  border-radius: 5px;
+}
+
+.shrotcut-menu-two .btn-weak i {
+  color: #fff;
+  font-size: 25px !important;
+  line-height: 1.5;
+}
+
+.shrotcut-menu-two ul {
+  padding: 0;
+  margin: 0;
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+  transition: 0.5s;
+}
+
+.shrotcut-menu-two ul.active {
+  transform: rotate(0);
+}
+
+.shrotcut-menu-two ul li {
+  margin: 0 0 10px;
+  list-style: none;
+}
+
+.shrotcut-menu-two ul li span {
+  content: "";
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  color: #000;
+  background-color: #2e3192;
+  text-align: center;
+  padding: 12px 0;
+  box-sizing: border-box;
+}
+
+.shrotcut-menu-two ul li span::after {
+  position: absolute;
+  top: 2px;
+  right: 7px;
+  color: white;
+  font-family: "Font Awesome 5 Pro";
+}
+
+.shrotcut-menu-two ul li span.max-size::after {
+  content: "\f067";
+}
+
+.shrotcut-menu-two ul li span.min-size::after {
+  content: "\f068";
+}
+
+.shrotcut-menu-two ul li span.max-page::after {
+  content: "\f067";
+}
+
+.shrotcut-menu-two ul li span.n-page::after {
+  content: "\f065";
+  font-size: 10px;
+}
+
+.shrotcut-menu-two ul li span.min-page::after {
+  content: "\f068";
+  color: white !important;
+}
+body {
+  background: #fff;
+  overflow-x: hidden;
+}
+.bg-gray {
+  display: none !important;
+}
+
+body.dark,
+body.dark * {
+  background: #000 !important;
+  color: white;
+}
+
+body.yellow [class^="banking-wrap-"],
+body.dark [class^="banking-wrap-"] {
+  background: transparent !important;
+  position: relative;
+  z-index: 2;
+}
+
+body.dark .banking-btn-list,
+body.yellow .banking-btn-list {
+  z-index: 1;
+}
+
+body.dark [class*="banking-wrap"]::before,
+body.yellow [class*="banking-wrap"]::before {
+  z-index: 1;
+}
+body.dark .item:hover img,
+body.yellow .item:hover img {
+  filter: brightness(100) !important;
+}
+body.light-white .item:hover img {
+  filter: brightness(1) saturate(0%);
+}
+body.yellow,
+body.yellow * {
+  background: #000 !important;
+  color: yellow;
+}
+
+body.dark > * {
+  border-color: #e89efd;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6 {
+  color: #e69ffd;
+}
+
+body.dark li,
+body.dark a,
+body.dark span,
+body.dark p {
+  color: #eee;
+}
+
+body.yellow h1,
+body.yellow h2,
+body.yellow h3,
+body.yellow h4,
+body.yellow h5,
+body.yellow h6 {
+  color: rgb(252, 255, 60) !important;
+}
+
+body.yellow li,
+body.yellow a,
+body.yellow span,
+body.yellow p {
+  color: rgb(252, 255, 60) !important;
+}
+
+body.light-white,
+body.light-white * {
+  background: #bfbfbf !important;
+  color: blue !important;
+}
+
+body.light-white > * {
+  color: rgb(0, 0, 211) !important;
+}
+
+body.light-white h1,
+body.light-white h2,
+body.light-white h3,
+body.light-white h4,
+body.light-white h5,
+body.light-white h6 {
+  color: rgb(0, 0, 211) !important;
+}
+
+body.light-white li,
+body.light-white a,
+body.light-white span,
+body.light-white p {
+  color: rgb(0, 0, 211) !important;
+}
+
+body.black,
+body.black > *,
+body.black #footer-box,
+body.black #footer-box > * {
+  color: #fff;
+  background-color: #000;
+}
+
+body.light-yellow,
+body.light-yellow > *,
+body.light-yellow #footer-box,
+body.light-yellow #footer-box > * {
+  color: #fff;
+  background-color: #ffdd00;
+}
+/* *** end kamtavan*** */
