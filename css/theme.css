@@ -597,6 +597,9 @@ body > form > main > div.table-class {
   background: #f8f9fa;
   padding: 15px;
 }
+.relatedLinksContainer{
+  overflow: hidden;
+}
 .relatedLinks {
   position: relative;
 }
