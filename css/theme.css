@@ -923,6 +923,12 @@ body > form > main > div.table-class {
     background-fil;
     filter: brightness(0);
   }
+  .navbar .navbar-nav .nav-link:after{
+    padding:20px;
+  }
+  .navbar .navbar-nav .nav-link:after{
+    margin: 5px 0px !important;
+  }
 }
 @media (min-width: 768px) {
   nav.submenu-left > li > a,
