@@ -597,7 +597,7 @@ body > form > main > div.table-class {
   background: #f8f9fa;
   padding: 15px;
 }
-.relatedLinksContainer{
+.relatedLinksContainer {
   overflow: hidden;
 }
 .relatedLinks {
@@ -909,24 +909,23 @@ body > form > main > div.table-class {
   }
   .logoBrand img {
     width: 100%;
-  }  
-  .dropdown-menu li:has(.submenu):hover > a:after{
-    rotate:90deg;
   }
-  button.navbar-toggler{
-    background:#fff;
+  .dropdown-menu li:has(.submenu):hover > a:after {
+    rotate: 90deg;
   }
-  nav.navbar{
-    padding:7px;
+  button.navbar-toggler {
+    background: #fff;
   }
-  button.navbar-toggler span{
-    background-fil;
+  nav.navbar {
+    padding: 7px;
+  }
+  button.navbar-toggler span {
     filter: brightness(0);
   }
-  .navbar .navbar-nav .nav-link:after{
-    padding:20px;
+  .navbar .navbar-nav .nav-link:after {
+    padding: 20px;
   }
-  .navbar .navbar-nav .nav-link:after{
+  .navbar .navbar-nav .nav-link:after {
     margin: 5px 0px !important;
   }
 }
@@ -935,8 +934,8 @@ body > form > main > div.table-class {
   .dropdown-menu > li > a {
     width: 250px !important;
   }
-  .dropdown-menu li:has(.submenu):hover > a:after{
-    rotate:180deg;
+  .dropdown-menu li:has(.submenu):hover > a:after {
+    rotate: 180deg;
   }
 }
 /*** end responsive design ***/
@@ -1048,7 +1047,7 @@ a.dropdown-item {
   content: "\f104";
   font-family: "Font Awesome 5 Pro";
   font-size: 20px;
-  transition:0.2s ease;
+  transition: 0.2s ease;
 }
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
@@ -1067,9 +1066,9 @@ a.dropdown-item {
   }
 
   .dropdown-menu > li:hover,
-  .dropdown-menu > li:hover > a{    
-    color:white !important;
-    background-color: #5f81b3 !important;    
+  .dropdown-menu > li:hover > a {
+    color: white !important;
+    background-color: #5f81b3 !important;
   }
   .dropdown-menu > li:hover > .submenu {
     display: block;
