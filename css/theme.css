@@ -1113,8 +1113,8 @@ a.dropdown-item {
 }
 .shrotcut-menu-two .btn-weak {
   display: inline-block;
-  height: 35px;
-  width: 40px;
+  height: 40px;
+  width: 50px;
   text-align: center;
   background-color: #2e3192;
   border-radius: 5px;
@@ -1149,7 +1149,7 @@ a.dropdown-item {
   display: block;
   width: 40px;
   height: 40px;
-  border-radius: 50px;
+  border-radius: 10px;
   color: #000;
   background-color: #2e3192;
   text-align: center;
